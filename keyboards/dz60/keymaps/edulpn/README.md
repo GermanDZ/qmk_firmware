@@ -8,3 +8,4 @@ Tsangan 60% Keymap for DZ60 + Fn layer.
 
 ## Build
 To build the default keymap, simply run `make dz60:edulpn`.
+

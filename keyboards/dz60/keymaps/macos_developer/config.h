@@ -3,7 +3,7 @@
 
 #include "../../config.h"
 
-// Fix KC_GESC conflict with Cmd+Alt+Esc on macos
-#define GRAVE_ESC_GUI_OVERRIDE
+// Allow Cmd+Esc on macos to work as Cmd+Grave to switch to next window
+#undef GRAVE_ESC_GUI_OVERRIDE
 
 #endif
